@@ -1,24 +1,9 @@
-# README
+# Simple Recommendation Engine
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
 
-Things you may want to cover:
+This is a demo of a [content-based filtering](https://developers.google.com/machine-learning/recommendation/content-based/basics) recommendation engine built in ruby. The engine recommends board games based on the user's profile.
+The algorithm uses four game features to calculate a similarity score of between 0 - 100 for each game. A similarity score is a measure of the closeness or likeness of a game to the user's preferences. The similarity score is then used to recommend games the user might love.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## TODO
+- [ ] Update user's profile when they review new games
